@@ -1,7 +1,15 @@
 node{
-    checkout scm
+    
     stage('Build') {
        
-            sh 'mvn --version'
+            echo 'Build Stage'
+         }
+    stage('Deploy') {
+       
+            echo 'Deploy Stage'
+         }
+    stage('test') {
+       
+            echo 'Test Stage'
          }
 }
