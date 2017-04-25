@@ -12,4 +12,8 @@ node{
        
             echo 'Test Stage'
          }
+    stage('PublishToDashboard') {
+       
+            echo 'Dashboard Stage'
+         }
 }
